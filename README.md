@@ -9,7 +9,7 @@ Every time you create a new Sudoku, the program takes X (depending on the level)
 
 The best option is that we found just one solution; if so, we finished.
 
-The second option is that there is no solution, for that option; we replace Randomly with one number and try to solve it again.
+The second option is that there is no solution, for that option; we replace Randomly one number and try to solve it again.
 
 The third option is that there is more then one solution; in that case we stick to one of the solutions we have found, and carefully reduce numbers from it, each time making sure that the solution is the only one, until we've got exactly X numbers on the board with just one solution. We try the last step a maximum of 100 times, and if we didn't get our sudoku yet, we start from the beginning.
 
